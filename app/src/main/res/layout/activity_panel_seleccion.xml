@@ -62,8 +62,8 @@
         android:layout_height="wrap_content"
         android:text="¿Nota Acumulativa?"
         android:textColor="#0B0B0B"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="468dp" />
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="455dp" />
 
     <RadioButton
         android:id="@+id/radioButton2"
@@ -71,33 +71,33 @@
         android:layout_height="wrap_content"
         android:text="Si"
         app:layout_constraintEnd_toStartOf="@+id/radioButton3"
-        app:layout_constraintHorizontal_bias="0.683"
+        app:layout_constraintHorizontal_bias="0.65"
         app:layout_constraintStart_toEndOf="@+id/textView4"
-        tools:layout_editor_absoluteY="385dp" />
+        tools:layout_editor_absoluteY="357dp" />
 
     <RadioButton
         android:id="@+id/radioButton3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="36dp"
+        android:layout_marginEnd="44dp"
         android:text="No"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
-        tools:layout_editor_absoluteY="385dp" />
+        tools:layout_editor_absoluteY="357dp" />
 
     <RadioButton
         android:id="@+id/radioButton4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Si"
-        tools:layout_editor_absoluteX="250dp"
-        tools:layout_editor_absoluteY="455dp" />
+        tools:layout_editor_absoluteX="219dp"
+        tools:layout_editor_absoluteY="452dp" />
 
     <RadioButton
         android:id="@+id/radioButton5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="No"
-        tools:layout_editor_absoluteX="326dp"
+        tools:layout_editor_absoluteX="295dp"
         tools:layout_editor_absoluteY="452dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
