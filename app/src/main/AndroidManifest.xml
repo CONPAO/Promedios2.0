@@ -9,13 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".cantidad_notas"></activity>
+        <activity android:name=".notas"></activity>
+        <activity android:name=".cantidad_notas" />
         <activity android:name=".MainActivity$Cantidad_de_semestres" />
         <activity
             android:name=".MainActivity2"
             android:label="@string/title_activity_main2"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".panelSeleccion" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
